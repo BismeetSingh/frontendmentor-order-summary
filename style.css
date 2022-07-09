@@ -120,10 +120,7 @@ button:hover{
 }
 
 .listen {
-    display: grid;
-    justify-content: end;
     width: 70%;
-
 }
 
 p {
