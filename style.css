@@ -1,0 +1,165 @@
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url("images/pattern-background-mobile.svg") ;
+    background-repeat: no-repeat;
+    background-size: 100% auto;
+    background-color: hsl(225, 100%, 94%);
+
+}
+
+@media (min-width:768px){
+    body{
+        background-image: url("images/pattern-background-desktop.svg") ;
+    }
+}
+
+
+
+.container {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    
+
+
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: auto;
+    justify-content: center;
+    height: 100vh;
+    
+}
+
+.plan-details {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    flex: 1;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+
+.change-url{
+    display: flex;
+    justify-content: end;
+    width: 30%;
+}
+
+.change-url a 
+{
+    color: hsl(245, 88%, 27%) ;
+    font-size: 1rem;
+}
+
+.change-url a:hover {
+    color: hsl(245, 75%, 52%);
+}
+
+
+.annual {
+    display: flex;
+    flex-direction: column;
+}
+
+.order {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 1rem;
+}
+
+.content {
+    background-color: white;
+    border-radius: 1rem;
+    width: 50%;
+    
+    
+    
+}
+
+.hero-image{
+    width: 100%;
+    border-top-left-radius: 1em;
+    border-top-right-radius: 1em;
+}
+
+button {
+    background-color: hsl(245, 75%, 52%);
+    color: white;
+    border-radius: 1rem;
+    padding-left: 4em;
+    padding-right: 4em;
+    padding-top: 1em;
+    padding-bottom: 1em;
+    letter-spacing: 0.05em;
+    font-weight: 700;
+    font-family: 'Montserrat', sans-serif;
+    margin-bottom: 1rem;
+    font-size: 1em;
+}
+
+button:hover{
+    background-color:   hsl(224, 23%, 55%);
+}
+
+
+.songs {
+    display: flex;
+    justify-content: center;
+}
+
+.listen {
+    display: grid;
+    justify-content: end;
+    width: 70%;
+
+}
+
+p {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 300;
+    font-size: 1rem;
+    margin: 0.5rem;
+    color: gray;
+    text-align: center;
+
+}
+
+h2 {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 900;
+    font-size: 1.5rem;
+    text-align: center;
+}
+
+.order a,h4 {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 100;
+    color: gray;
+    margin-top: 0.5rem;
+    
+}
+
+.order a:hover {
+    font-weight: 900;
+}
+
+.plan-details img  {
+    max-height: 3rem;
+}
+
+h3,h4 {
+    margin: 0.5rem;
+    margin-left: 1rem;
+}
