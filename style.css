@@ -6,7 +6,7 @@
 body {
     background-image: url("images/pattern-background-mobile.svg") ;
     background-repeat: no-repeat;
-    background-size: 100% auto;
+    background-size: contain;
     background-color: hsl(225, 100%, 94%);
 
 }
